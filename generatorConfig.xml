@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MySQLTables" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/firefly?serverTimezone=UTC"
+                        userId="root"
+                        password="123456"/>
+
+        <javaModelGenerator targetPackage="com.firefly.partner.pojo"
+                            targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="src/main/resources"/>
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.firefly.partner.mapper"
+                             targetProject="src/main/java"/>
+
+        <!-- 生成指定表 -->
+        <table tableName="user" domainObjectName="User"/>
+        <table tableName="chat_logs" domainObjectName="ChatLogs"/>
+        <table tableName="wake_words" domainObjectName="WakeWords"/>
+    </context>
+</generatorConfiguration>

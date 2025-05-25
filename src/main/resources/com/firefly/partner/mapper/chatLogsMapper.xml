@@ -1,0 +1,37 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >-->
+<!--<mapper namespace="com.firefly.partner.mapper.chatLogsMapper">-->
+
+<!--    <resultMap id="chatLogMap" type="com.firefly.partner.pojo.ChatLogs">-->
+<!--        <id property="chatID" column="C_ID"/>-->
+<!--        <result property="sessionID" column="session_id"/>-->
+<!--        <result property="response" column="response_text"/>-->
+<!--        <result property="audio" column="audio_path"/>-->
+<!--        <result property="latency" column="latency"/>-->
+<!--        <result property="createTime" column="create_at"/>-->
+<!--        <result property="UID" column="U_ID"/>-->
+
+<!--    </resultMap>-->
+
+<!--&lt;!&ndash;    <insert id="insertChatLogs" useGeneratedKeys="true" keyProperty="chatID" keyColumn="C_ID">&ndash;&gt;-->
+<!--&lt;!&ndash;        INSERT INTO chat_logs (&ndash;&gt;-->
+<!--&lt;!&ndash;            session_id,&ndash;&gt;-->
+<!--&lt;!&ndash;            input_text,&ndash;&gt;-->
+<!--&lt;!&ndash;            response_text,&ndash;&gt;-->
+<!--&lt;!&ndash;            audio_path,&ndash;&gt;-->
+<!--&lt;!&ndash;            latency,&ndash;&gt;-->
+<!--&lt;!&ndash;            status,&ndash;&gt;-->
+<!--&lt;!&ndash;            U_ID&ndash;&gt;-->
+<!--&lt;!&ndash;        ) VALUES (&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{sessionID},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{input},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{response},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{audio},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{latency},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{status},&ndash;&gt;-->
+<!--&lt;!&ndash;                     #{UID}&ndash;&gt;-->
+<!--&lt;!&ndash;                 )&ndash;&gt;-->
+<!--&lt;!&ndash;    </insert>&ndash;&gt;-->
+
+
+<!--</mapper>-->
